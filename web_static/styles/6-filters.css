@@ -1,0 +1,64 @@
+.filters{
+	background-color: #fff;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.container{
+	width: 100%;
+	max-width: 1000px;
+}
+
+.btn{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: flex-end;
+	margin-right: 30px;
+}
+
+button{
+	font-size: 18px;
+	background-color: #FF5A5F;
+	color: #FFF;
+	height: 48px;
+	width: 30%;
+	border: none;
+	border-radius: 4px;
+}
+
+button:hover{
+	opacity: 90%;
+}
+
+h3{
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h4{
+	font-weight: 400;
+	font-size: 14px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.Locations,
+.amenties{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 25%;
+	height: 100%;
+	margin-left: 40px;
+	border-right: 1px solid #DDD;
+}
+
+.amenties{
+	border: none;
+}
