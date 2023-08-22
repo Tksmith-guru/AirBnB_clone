@@ -1,0 +1,13 @@
+header{
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: 20px;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 20px;
+}
